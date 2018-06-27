@@ -284,7 +284,7 @@ label span.required {
 }
 .field {
     display: block;
-    margin: 20px 0;
+    margin: 10px 0;
     position: relative;
 }
 .row-8 {
@@ -1218,4 +1218,45 @@ p.reminder {
     font-size: 16px;
     line-height: 1;
     margin-top: 20px;
+}
+.contact_delhi_school {
+  position: relative;
+}
+.contact_delhi_school:before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 100%;
+    width: 3px;
+    background: #115e69;
+}
+.contact_delhi_school .first_flex {
+    padding-right: 25px;
+}
+.contact_delhi_school .second_flex {
+    padding-left: 25px;
+}
+.contact_list {
+
+}
+.contact_list ul {
+
+}
+.contact_list ul li {
+    line-height: 2.3em;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #dadada;
+}
+.contact_list ul li span,
+.contact_list ul li strong {
+
+}
+.soutviewschools_map .container {
+    padding-top: 0;
+    margin-top: 10px;
 }
